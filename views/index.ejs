@@ -1,1 +1,8 @@
-<%=pokemon%>
+<ul>
+<%for(let i = 0; i < pokemon.length; i++){%>
+    <li>
+        <%=pokemon[i].name%>
+        <img src='<%=image[i].img%>'>
+    </li>
+<%}%>
+</ul>
